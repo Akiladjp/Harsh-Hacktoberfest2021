@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Test
+  {
+
+     public static void main(String []args){
+		Scanner input = new Scanner (System.in);
+		System.out.print("Enter messages = ");
+		String messages=input.nextLine();
+        for ( int i=0; i<=4; i++ )
+		{   
+			System.out.println(messages.charAt(i));
+		}
+	 }
+}
